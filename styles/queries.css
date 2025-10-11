@@ -1,0 +1,12 @@
+@media(max-width: 500px) {
+  header {
+    display: none;
+  }
+  .header-phone {
+    display: block;
+  }
+  .ham-menu-show {
+    left: 0;
+    transition: ease-out linear 1000ms;
+  }
+}
