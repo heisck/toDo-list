@@ -1,6 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heisck Laundry Packages</title>
+
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f7f9fc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* ===== CONTAINER ===== */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #0a58ca;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1rem;
+    }
+
+    /* ===== CATEGORY CARD ===== */
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+
+    .card h2 {
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    /* ===== COLORS ===== */
+    .green h2 { color: #1e9b45; }
+    .blue h2  { color: #0d6efd; }
+    .purple h2{ color: #6f42c1; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #0d6efd;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /* ===== RESPONSIVE DESIGN ===== */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      .card {
+        padding: 16px;
+      }
+
+      .price {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>🧺 Heisck Laundry Price Packages</h1>
+      <p>Simple • Fair • Student-Friendly</p>
+    </header>
+
+    <!-- CATEGORY 1 -->
+    <div class="card green">
+      <h2>🟢 Category 1: Single-Cycle Loads</h2>
+      <p class="subtitle">(Same colour / similar items)</p>
+
+      <div class="price">₵6 per kg</div>
+
+      <strong>Examples:</strong>
+      <ul>
+        <li>All coloured clothes</li>
+        <li>All whites</li>
+        <li>Bedsheets only</li>
+        <li>Towels only</li>
+      </ul>
+
+      <strong>Includes:</strong>
+      <ul>
+        <li>Washed together</li>
+        <li>One complete wash</li>
+        <li>Detergent included</li>
+      </ul>
+    </div>
+
+    <!-- CATEGORY 2 -->
+    <div class="card blue">
+      <h2>🔵 Category 2: Mixed Laundry</h2>
+      <p class="subtitle">(Normal student load – requires separation)</p>
+
+      <div class="price">₵8 per kg</div>
+
+      <strong>Examples:</strong>
+      <ul>
+        <li>Whites + colours</li>
+        <li>Jeans + shirts</li>
+        <li>Mixed everyday clothes</li>
+      </ul>
+
+      <strong>Includes:</strong>
+      <ul>
+        <li>Proper sorting</li>
+        <li>Colour-safe washing</li>
+        <li>Detergent & softener included</li>
+      </ul>
+    </div>
+
+    <!-- CATEGORY 3 -->
+    <div class="card purple">
+      <h2>🟣 Category 3: Heavy / Complex Loads</h2>
+      <p class="subtitle">(Multiple fabric types or very dirty)</p>
+
+      <div class="price">₵10 per kg</div>
+
+      <strong>Examples:</strong>
+      <ul>
+        <li>Whites + colours + jeans</li>
+        <li>Bedsheets + clothes</li>
+        <li>Heavily soiled laundry</li>
+      </ul>
+
+      <strong>Includes:</strong>
+      <ul>
+        <li>Pre-treatment</li>
+        <li>Deep cleaning</li>
+        <li>Whitening / brightening where needed</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>📍 NAB39 – Ultimate Hostel</p>
+      <a class="btn" href="https://wa.me/233XXXXXXXXX">
+        WhatsApp to Order
+      </a>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Todo list</title>
@@ -193,4 +402,4 @@
 
   <script src="scripts/index.js"></script>
 </body>
-</html>
+</html> -->
